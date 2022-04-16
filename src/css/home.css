@@ -1,0 +1,17 @@
+.singinbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+.singoutbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
