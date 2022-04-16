@@ -22,7 +22,7 @@ The project has the following Routes:
 
 ### Installing and running the app
 
-**NOTE: This is not a standalone application, it needs an express server and a mongodb database to work**
+**NOTE: This is not a standalone application, it needs an [express server](https://github.com/ag2byte/Booksearch-api) and a mongodb database to work**
 
 - Clone the repo.  
   `git clone https://github.com/ag2byte/Bookserach-ui/tree.git`
