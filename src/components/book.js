@@ -16,7 +16,7 @@ import LogoutButton from './logoutbutton'
     useEffect(()=>{
         // get book details on load
         if(user!=null)
-            axios.get(`/getbook/?volumeId=`+id)
+            axios.get(`/getbook/?volumeId=${id}`)
             .then(res =>
                 {setBook(res.data)  
                 })

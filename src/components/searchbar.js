@@ -12,7 +12,7 @@ function Searchbar(){
   const handleSearchEvent = (event)=>{
     event.preventDefault()
     const queryTerm = event.target[0].value
-  axios.get('/getbooklist/?queryTerm='+queryTerm)
+  axios.get(`/getbooklist/?queryTerm=${queryTerm}`)
     .then(response => {
     setResult(response.data)
     }) 

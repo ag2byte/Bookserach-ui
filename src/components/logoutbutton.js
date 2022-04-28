@@ -8,7 +8,7 @@ function LogoutButton(){
 
     const {user,setUser} = useContext(UserContext)
     const onLogoutSuccess = (res)=>{
-        axios.get('/logout')
+        axios.get(`/logout`)
         .then(res => console.log(res.data))
         setUser(null)
     }
