@@ -7,7 +7,7 @@ import LoginButton from "./loginbutton";
 function Home(){
 return (
     <Container>
-        <h1>React Book Store</h1>   
+        <h1>React Book Search</h1>   
         <div className="singinbutton">
             <LoginButton/>
         </div>

@@ -10,7 +10,7 @@ function LoginButton(){
     const {user,setUser} = useContext(UserContext)
     const onSuccess = async googleData=>{
         console.log('Authentication successfull');
-        const res = await axios.post('/verifyToken',{
+        const res = await axios.post(`/verifyToken`,{
             token:googleData.tokenId
         })
         setUser(res.data)
