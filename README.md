@@ -8,7 +8,7 @@ The project has the following Routes:
 
 - `/` - Users can sign in with Google on this page
 - `/search` - Users can search a book by its title and get a list of results from the `Google books API`
-- '/search/:id' - Users can retreive book details based on `id` which is unique for every book in the `Google Books API`
+- `/search/:id` - Users can retreive book details based on `id` which is unique for every book in the `Google Books API`
 - `/api/history` - Users can see the history of their searches stored in the `MongoDB` database.
 
 ### Important points:
